@@ -1,1 +1,1 @@
-# Project of Email-Checker
+# Email-Checker Repository
