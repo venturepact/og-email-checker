@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var bodyparser = require('body-parser');
-var mailcheck = require('../supportfunction/emailcheck.js')
+var mailcheck = require('../services/emailcheck.js')
 var promise = require('promise');
 router.use(bodyparser.json());
 router.post('/',function(req,res){

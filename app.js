@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var mailcheck = require('./routes/emailcheckfun');
+var mailcheck = require('./controllers/emailcheckfun');
 var app = express();
 
 // view engine setup
